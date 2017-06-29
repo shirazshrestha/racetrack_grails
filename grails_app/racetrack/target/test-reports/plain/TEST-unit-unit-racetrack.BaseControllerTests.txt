@@ -1,0 +1,15 @@
+Testsuite: racetrack.BaseControllerTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 4.252 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 3.605 sec
+	Caused an ERROR
+Cannot add Controller class [class racetrack.BaseController]. It is not a Controller!
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Controller class [class racetrack.BaseController]. It is not a Controller!
+	at grails.test.mixin.web.ControllerUnitTestMixin.mockController(ControllerUnitTestMixin.groovy:284)
+

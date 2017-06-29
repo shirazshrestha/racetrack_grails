@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="3" hostname="DESKTOP-RKRLPOU" name="racetrack.RaceTests" tests="4" time="1.199" timestamp="2017-06-29T06:55:49">
+  <properties />
+  <testcase classname="racetrack.RaceTests" name="testNameMaxConstraint" time="0.366">
+    <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError
+	at racetrack.RaceTests.assertValidationError(RaceTests.groovy:68)
+	at racetrack.RaceTests.testNameMaxConstraint(RaceTests.groovy:42)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.RaceTests" name="testSomething" time="0.098">
+    <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError
+	at racetrack.RaceTests.testSomething(RaceTests.groovy:22)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.RaceTests" name="testStartDateTimeCustomConstraintWithPastValue" time="0.05" />
+  <testcase classname="racetrack.RaceTests" name="testStartDateTimeCustomConstraintWithNullValue" time="0.086">
+    <failure message="junit.framework.AssertionFailedError" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError
+	at racetrack.RaceTests.assertValidationError(RaceTests.groovy:68)
+	at racetrack.RaceTests.testStartDateTimeCustomConstraintWithNullValue(RaceTests.groovy:28)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testNameMaxConstraint--
+--Output from testSomething--
+--Output from testStartDateTimeCustomConstraintWithPastValue--
+--Output from testStartDateTimeCustomConstraintWithNullValue--
+]]></system-out>
+  <system-err><![CDATA[--Output from testNameMaxConstraint--
+--Output from testSomething--
+--Output from testStartDateTimeCustomConstraintWithPastValue--
+--Output from testStartDateTimeCustomConstraintWithNullValue--
+]]></system-err>
+</testsuite>

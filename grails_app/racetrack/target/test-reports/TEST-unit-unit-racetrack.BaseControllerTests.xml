@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="DESKTOP-RKRLPOU" name="racetrack.BaseControllerTests" tests="1" time="4.252" timestamp="2017-06-29T06:55:37">
+  <properties />
+  <testcase classname="racetrack.BaseControllerTests" name="testSomething" time="3.61">
+    <error message="Cannot add Controller class [class racetrack.BaseController]. It is not a Controller!" type="org.codehaus.groovy.grails.exceptions.GrailsConfigurationException">org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Cannot add Controller class [class racetrack.BaseController]. It is not a Controller!
+	at grails.test.mixin.web.ControllerUnitTestMixin.mockController(ControllerUnitTestMixin.groovy:284)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

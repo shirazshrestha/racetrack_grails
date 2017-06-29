@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="DESKTOP-RKRLPOU" name="racetrack.UserControllerTests" tests="8" time="1.916" timestamp="2017-06-29T06:55:56">
+  <properties />
+  <testcase classname="racetrack.UserControllerTests" name="testIndex" time="0.707" />
+  <testcase classname="racetrack.UserControllerTests" name="testList" time="0.113" />
+  <testcase classname="racetrack.UserControllerTests" name="testCreate" time="0.128" />
+  <testcase classname="racetrack.UserControllerTests" name="testSave" time="0.089">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/user/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ab6fd2b&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/user/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ab6fd2b
+
+	at racetrack.UserControllerTests.testSave(UserControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.UserControllerTests" name="testShow" time="0.11">
+    <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       racetrack.User : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+	at racetrack.UserControllerTests.testShow(UserControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.UserControllerTests" name="testEdit" time="0.143">
+    <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       racetrack.User : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+	at racetrack.UserControllerTests.testEdit(UserControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.UserControllerTests" name="testUpdate" time="0.186">
+    <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       racetrack.User : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+	at racetrack.UserControllerTests.testUpdate(UserControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="racetrack.UserControllerTests" name="testDelete" time="0.106">
+    <failure message="Assertion failed: &#xa;&#xa;assert user.save() != null&#xa;       |    |      |&#xa;       |    null   false&#xa;       racetrack.User : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+	at racetrack.UserControllerTests.testDelete(UserControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,36 @@
+Testsuite: racetrack.RaceTests
+Tests run: 4, Failures: 3, Errors: 0, Time elapsed: 1.199 sec
+------------- Standard Output ---------------
+--Output from testNameMaxConstraint--
+--Output from testSomething--
+--Output from testStartDateTimeCustomConstraintWithPastValue--
+--Output from testStartDateTimeCustomConstraintWithNullValue--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testNameMaxConstraint--
+--Output from testSomething--
+--Output from testStartDateTimeCustomConstraintWithPastValue--
+--Output from testStartDateTimeCustomConstraintWithNullValue--
+------------- ---------------- ---------------
+
+Testcase: testNameMaxConstraint took 0.365 sec
+	FAILED
+junit.framework.AssertionFailedError
+junit.framework.AssertionFailedError: junit.framework.AssertionFailedError
+	at racetrack.RaceTests.assertValidationError(RaceTests.groovy:68)
+	at racetrack.RaceTests.testNameMaxConstraint(RaceTests.groovy:42)
+
+Testcase: testSomething took 0.098 sec
+	FAILED
+junit.framework.AssertionFailedError
+junit.framework.AssertionFailedError: junit.framework.AssertionFailedError
+	at racetrack.RaceTests.testSomething(RaceTests.groovy:22)
+
+Testcase: testStartDateTimeCustomConstraintWithPastValue took 0.05 sec
+Testcase: testStartDateTimeCustomConstraintWithNullValue took 0.085 sec
+	FAILED
+junit.framework.AssertionFailedError
+junit.framework.AssertionFailedError: junit.framework.AssertionFailedError
+	at racetrack.RaceTests.assertValidationError(RaceTests.groovy:68)
+	at racetrack.RaceTests.testStartDateTimeCustomConstraintWithNullValue(RaceTests.groovy:28)
+

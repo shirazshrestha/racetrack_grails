@@ -1,0 +1,116 @@
+Testsuite: racetrack.UserControllerTests
+Tests run: 8, Failures: 5, Errors: 0, Time elapsed: 1.916 sec
+------------- Standard Output ---------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+------------- ---------------- ---------------
+
+Testcase: testIndex took 0.707 sec
+Testcase: testList took 0.113 sec
+Testcase: testCreate took 0.128 sec
+Testcase: testSave took 0.089 sec
+	FAILED
+Assertion failed: 
+
+assert response.redirectedUrl == '/user/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ab6fd2b
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == '/user/show/1'
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1ab6fd2b
+
+	at racetrack.UserControllerTests.testSave(UserControllerTests.groovy:48)
+
+Testcase: testShow took 0.11 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+	at racetrack.UserControllerTests.testShow(UserControllerTests.groovy:62)
+
+Testcase: testEdit took 0.143 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+	at racetrack.UserControllerTests.testEdit(UserControllerTests.groovy:80)
+
+Testcase: testUpdate took 0.186 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+	at racetrack.UserControllerTests.testUpdate(UserControllerTests.groovy:100)
+
+Testcase: testDelete took 0.106 sec
+	FAILED
+Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert user.save() != null
+       |    |      |
+       |    null   false
+       racetrack.User : (unsaved)
+
+	at racetrack.UserControllerTests.testDelete(UserControllerTests.groovy:144)
+
